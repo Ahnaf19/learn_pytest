@@ -76,3 +76,7 @@ This repo definitely doesn't cover all features of pytest but contains **go to f
 ## Configuration
 
 - `pytest.ini`: Configuration file to register custom markers.
+
+## Let’s Connect
+
+If you're passionate about testing or Python development, let’s discuss ideas and experiences. Feedback, forks, and collaboration requests are always welcome!
