@@ -34,6 +34,9 @@ def test_divide():
     assert divide(4, 2) == 2
     assert divide(5, 2) == 2.5
     
+    with pytest.raises(ZeroDivisionError):
+        divide(1, 0)
+    
 # * markers
 # slow test --> custom marker
 # skip test --> builtin marker
