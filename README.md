@@ -45,8 +45,8 @@ This repo definitely doesn't cover all features of pytest but contains **go to f
    - Example methods: `test_area`, `test_perimeter`, `test_diameter`.
 
 7. **Markers and Parametrize**:
-
-   - Custom markers can be used to categorize tests.
+   - There are useful markers like skip, xfail etc.
+   - Custom markers can also be used to categorize tests.
    - Example: `@pytest.mark.slow` for slow tests.
    - Register custom markers in `pytest.ini`.
    - Use `@pytest.mark.parametrize` to run a test with different sets of parameters.
